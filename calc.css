@@ -1,0 +1,53 @@
+#title {
+
+    text-align: center;
+
+
+
+}
+
+.body-wrap {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 50rem;
+    text-align: center;
+    margin: 5rem;
+    background: purple;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.calculator{
+    display: grid;
+    margin: 3rem 1rem;
+    height: 20rem;
+    text-align: center;
+    
+    
+    
+
+
+}
+
+    .calc-buttons{
+
+        grid-row: 2;
+
+
+    }
