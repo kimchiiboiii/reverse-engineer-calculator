@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"  href="calc.css">
-
+    <link rel="stylesheet"  href="calcStyle.css">
+    <script src="calcAct.js" defer> </script>
 
 </head>
 
@@ -20,13 +20,15 @@
 <div class="calculator-wrapper">My Calc
 
 
-    <div class="calculator">Calculator
+    <div class="calculator">
 
-        <button class="calc-buttons">Blah</button>            
-        <button class="calc-buttons">Blah</button>            
-        <button class="calc-buttons">Blah</button>            
-        <button class="calc-buttons">Blah</button>            
+        <input type="number" id="num-field"></input>
 
+        <button onclick="clearInput();getOp();" class="calc-buttons" id="divide" value="div">/</button>            
+        <button onclick="clearInput();getOp();" class="calc-buttons" id="multiply" value="times">X</button>            
+        <button onclick="clearInput();getOp();" class="calc-buttons" id="minus" value="subtract">-</button>            
+        <button onclick="clearInput();getOp();" class="calc-buttons" id="add" value="addition">+</button>            
+        <button onclick="clearInput();doMath();" class="calc-buttons" id="equal" value="equals">=</button> 
     
     </div>
 
@@ -57,9 +59,7 @@
 
 
 
-<script src="calc.js">
-
-</script>
+<script src="calcAct.js"> </script>
 
     
 <body>

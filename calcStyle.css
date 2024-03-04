@@ -27,27 +27,49 @@
 
 
 
+.calculator-wrapper{
 
 
-
-
-
-
-.calculator{
-    display: grid;
-    margin: 3rem 1rem;
-    height: 20rem;
-    text-align: center;
     
-    
-    
+
+
 
 
 }
 
+
+
+
+
+.calculator {
+    
+    display: grid;
+    margin: 5rem 4rem;
+    height: 20rem;
+    
+    
+    
+    }
+
+
+    .calculator #num-field {
+
+        text-align: center;
+       
+        grid-column: 1 / 6;
+        font-size: 1.5rem;
+    }
+
+
+
+
+    
+
     .calc-buttons{
 
         grid-row: 2;
-
+        height: 6rem;
+        font-size: 2rem; 
+        
 
     }
