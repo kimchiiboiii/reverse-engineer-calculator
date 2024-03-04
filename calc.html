@@ -10,32 +10,42 @@
 </head>
 
 
-<h1 id="title">Calculator</h1>
 
 
-<div class="body-wrap">
-
-<div class="sidebars" id="sidebar-right">Sidebar</div>
-
-<div class="calculator-wrapper">My Calc
-
-
-    <div class="calculator">
-
-        <input type="number" id="num-field"></input>
-
-        <button onclick="getNumAndClearInput();getOp('div') ;" class="calc-buttons" id="divide" value="div">/</button>            
-        <button onclick="getNumAndClearInput();getOp('times');" class="calc-buttons" id="multiply" value="times">X</button>            
-        <button onclick="getNumAndClearInput();getOp('subtract');" class="calc-buttons" id="minus" value="subtract">-</button>            
-        <button onclick="getNumAndClearInput();getOp('addition');" class="calc-buttons" id="add" value="addition">+</button>            
-        <button onclick="getNumAndClearInput();doMath();" class="calc-buttons" id="equal" value="equals">=</button> 
+<div class="page-background">
     
+
+    <h1 id="title">Header</h1>
+
+
+
+
+    <div class="body-wrap">
+
+        <div class="sidebars" id="sidebar-left">Sidebar</div>
+
+        <div class="calculator-wrapper">My Calculator
+
+
+            <div class="calculator">
+
+                <input type="number" id="num-field"></input>
+
+                <button onclick="getNumAndClearInput();getOp('div') ;" class="calc-buttons" id="divide" value="div">/</button>            
+                <button onclick="getNumAndClearInput();getOp('times');" class="calc-buttons" id="multiply" value="times">X</button>            
+                <button onclick="getNumAndClearInput();getOp('subtract');" class="calc-buttons" id="minus" value="subtract">-</button>            
+                <button onclick="getNumAndClearInput();getOp('addition');" class="calc-buttons" id="add" value="addition">+</button>            
+                <button onclick="getNumAndClearInput();doMath();" class="calc-buttons" id="equal" value="equals">=</button> 
+            
+            </div>
+
+            
+        </div>
+
+        <div class="sidebars" id="sidebar-right">Sidebar</div>
+
     </div>
 
-
-</div>
-
-<div class="sidebars" id="sidebar-right">Sidebar</div>
 
 
 </div>
