@@ -24,11 +24,11 @@
 
         <input type="number" id="num-field"></input>
 
-        <button onclick="clearInput();getOp();" class="calc-buttons" id="divide" value="div">/</button>            
-        <button onclick="clearInput();getOp();" class="calc-buttons" id="multiply" value="times">X</button>            
-        <button onclick="clearInput();getOp();" class="calc-buttons" id="minus" value="subtract">-</button>            
-        <button onclick="clearInput();getOp();" class="calc-buttons" id="add" value="addition">+</button>            
-        <button onclick="clearInput();doMath();" class="calc-buttons" id="equal" value="equals">=</button> 
+        <button onclick="getNumAndClearInput();getOp('div') ;" class="calc-buttons" id="divide" value="div">/</button>            
+        <button onclick="getNumAndClearInput();getOp('times');" class="calc-buttons" id="multiply" value="times">X</button>            
+        <button onclick="getNumAndClearInput();getOp('subtract');" class="calc-buttons" id="minus" value="subtract">-</button>            
+        <button onclick="getNumAndClearInput();getOp('addition');" class="calc-buttons" id="add" value="addition">+</button>            
+        <button onclick="getNumAndClearInput();doMath();" class="calc-buttons" id="equal" value="equals">=</button> 
     
     </div>
 
